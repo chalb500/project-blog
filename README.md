@@ -173,9 +173,7 @@ First thing's first, we need to get this component rendering!
 Inside the `javascript-modulo-operator.mdx` file, you'll notice that some code has been commented out:
 
 ```md
-**TODO: Uncomment DivisionGroupsDemo**
-
-{/* <DivisionGroupsDemo /> */}
+<DivisionGroupsDemo />
 ```
 
 If you uncomment this code, you'll get an error telling you that next-mdx-remote doesn't know how to resolve the `DivisionGroupsDemo`.
@@ -226,9 +224,7 @@ Let's implement some _layout animations_, so that the pink circles being grouped
 If you keep scrolling down inside `javascript-modulo-operator.mdx`, you'll notice another instance of `DivisionGroupsDemo` which has been commented out:
 
 ```md
-**TODO: Uncomment DivisionGroupsDemo**
-
-{/* <DivisionGroupsDemo includeRemainderArea={true} numOfItems={11} initialNumOfGroups={4} /> */}
+<DivisionGroupsDemo includeRemainderArea={true} numOfItems={11} initialNumOfGroups={4} />
 ```
 
 If you haven't already, you can uncomment this second `DivisionGroupsDemo` element. Your mission in this final part of the exercise is to ensure that the layout animations continue working as expected:
